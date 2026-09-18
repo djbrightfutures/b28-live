@@ -1,0 +1,791 @@
+{
+ "updated": "2026-09-18 10:20 UTC",
+ "n_open": 12,
+ "books": [
+  {
+   "name": "OMEGA3",
+   "room": "WINDOW 3",
+   "equity": 2085.4,
+   "prof": 1085.4,
+   "profpct": 108.54,
+   "wins": 3,
+   "losses": 0,
+   "market": "XAUUSD",
+   "opens": [],
+   "history": [
+    {
+     "r": "WIN",
+     "pnl": 209.7
+    },
+    {
+     "r": "WIN",
+     "pnl": 204.0
+    },
+    {
+     "r": "WIN",
+     "pnl": 671.7
+    }
+   ]
+  },
+  {
+   "name": "GAP",
+   "room": "THE GAP",
+   "equity": 1582.65,
+   "prof": 582.65,
+   "profpct": 58.27,
+   "wins": 15,
+   "losses": 1,
+   "market": "GOLD:",
+   "opens": [
+    {
+     "side": "BUY",
+     "sym": "PAXG-USD",
+     "entry": 4387.169921875,
+     "live": 4371.17,
+     "pnl": -102.12,
+     "lot": 0.28
+    },
+    {
+     "side": "SELL",
+     "sym": "GC=F",
+     "entry": 4435.7001953125,
+     "live": 4419.1,
+     "pnl": 104.79,
+     "lot": 0.28
+    }
+   ],
+   "history": [
+    {
+     "r": "WIN",
+     "pnl": 14.54
+    },
+    {
+     "r": "WIN",
+     "pnl": 18.43
+    },
+    {
+     "r": "WIN",
+     "pnl": 11.64
+    },
+    {
+     "r": "WIN",
+     "pnl": 184.03
+    },
+    {
+     "r": "WIN",
+     "pnl": 8.13
+    },
+    {
+     "r": "WIN",
+     "pnl": 30.9
+    },
+    {
+     "r": "WIN",
+     "pnl": 31.71
+    },
+    {
+     "r": "WIN",
+     "pnl": 9.22
+    },
+    {
+     "r": "WIN",
+     "pnl": 63.19
+    },
+    {
+     "r": "WIN",
+     "pnl": 8.71
+    },
+    {
+     "r": "WIN",
+     "pnl": 85.17
+    },
+    {
+     "r": "WIN",
+     "pnl": 12.97
+    }
+   ]
+  },
+  {
+   "name": "REV5",
+   "room": "REV",
+   "equity": 1578.41,
+   "prof": 578.41,
+   "profpct": 57.84,
+   "wins": 17,
+   "losses": 1,
+   "market": "XAUUSD",
+   "opens": [],
+   "history": [
+    {
+     "r": "WIN",
+     "pnl": 26.91
+    },
+    {
+     "r": "WIN",
+     "pnl": 28.63
+    },
+    {
+     "r": "WIN",
+     "pnl": 30.46
+    },
+    {
+     "r": "WIN",
+     "pnl": 32.4
+    },
+    {
+     "r": "WIN",
+     "pnl": 34.47
+    },
+    {
+     "r": "WIN",
+     "pnl": 36.67
+    },
+    {
+     "r": "WIN",
+     "pnl": 39.01
+    },
+    {
+     "r": "WIN",
+     "pnl": 41.5
+    },
+    {
+     "r": "LOSS",
+     "pnl": -176.64
+    },
+    {
+     "r": "WIN",
+     "pnl": 44.15
+    },
+    {
+     "r": "WIN",
+     "pnl": 46.97
+    },
+    {
+     "r": "WIN",
+     "pnl": 49.96
+    }
+   ]
+  },
+  {
+   "name": "RETO",
+   "room": "LIVE RACE",
+   "equity": 1407.05,
+   "prof": 407.05,
+   "profpct": 40.71,
+   "wins": 1,
+   "losses": 1,
+   "market": "XAUUSD",
+   "opens": [],
+   "history": [
+    {
+     "r": "LOSS",
+     "pnl": -69.99
+    },
+    {
+     "r": "WIN",
+     "pnl": 477.04
+    }
+   ]
+  },
+  {
+   "name": "OMEGA",
+   "room": "LIVE RACE",
+   "equity": 1388.4,
+   "prof": 388.4,
+   "profpct": 38.84,
+   "wins": 2,
+   "losses": 1,
+   "market": "XAUUSD",
+   "opens": [],
+   "history": [
+    {
+     "r": "LOSS",
+     "pnl": -119.6
+    },
+    {
+     "r": "WIN",
+     "pnl": 266.5
+    },
+    {
+     "r": "WIN",
+     "pnl": 241.5
+    }
+   ]
+  },
+  {
+   "name": "OMEGA+",
+   "room": "CHALLENGER",
+   "equity": 1355.7,
+   "prof": 355.7,
+   "profpct": 35.57,
+   "wins": 2,
+   "losses": 1,
+   "market": "XAUUSD",
+   "opens": [],
+   "history": [
+    {
+     "r": "LOSS",
+     "pnl": -119.3
+    },
+    {
+     "r": "WIN",
+     "pnl": 233.5
+    },
+    {
+     "r": "WIN",
+     "pnl": 241.5
+    }
+   ]
+  },
+  {
+   "name": "REV3M",
+   "room": "REV",
+   "equity": 1349.76,
+   "prof": 349.76,
+   "profpct": 34.98,
+   "wins": 17,
+   "losses": 0,
+   "market": "XAUUSD",
+   "opens": [],
+   "history": [
+    {
+     "r": "WIN",
+     "pnl": 16.67
+    },
+    {
+     "r": "WIN",
+     "pnl": 17.1
+    },
+    {
+     "r": "WIN",
+     "pnl": 17.54
+    },
+    {
+     "r": "WIN",
+     "pnl": 17.99
+    },
+    {
+     "r": "WIN",
+     "pnl": 18.45
+    },
+    {
+     "r": "WIN",
+     "pnl": 18.92
+    },
+    {
+     "r": "WIN",
+     "pnl": 19.41
+    },
+    {
+     "r": "WIN",
+     "pnl": 19.91
+    },
+    {
+     "r": "WIN",
+     "pnl": 20.42
+    },
+    {
+     "r": "WIN",
+     "pnl": 20.94
+    },
+    {
+     "r": "WIN",
+     "pnl": 21.48
+    },
+    {
+     "r": "WIN",
+     "pnl": 22.03
+    }
+   ]
+  },
+  {
+   "name": "REV3",
+   "room": "REV",
+   "equity": 1290.67,
+   "prof": 290.67,
+   "profpct": 29.07,
+   "wins": 17,
+   "losses": 0,
+   "market": "XAUUSD",
+   "opens": [],
+   "history": [
+    {
+     "r": "WIN",
+     "pnl": 14.48
+    },
+    {
+     "r": "WIN",
+     "pnl": 14.77
+    },
+    {
+     "r": "WIN",
+     "pnl": 15.07
+    },
+    {
+     "r": "WIN",
+     "pnl": 15.38
+    },
+    {
+     "r": "WIN",
+     "pnl": 15.69
+    },
+    {
+     "r": "WIN",
+     "pnl": 16.01
+    },
+    {
+     "r": "WIN",
+     "pnl": 16.34
+    },
+    {
+     "r": "WIN",
+     "pnl": 16.67
+    },
+    {
+     "r": "WIN",
+     "pnl": 17.02
+    },
+    {
+     "r": "WIN",
+     "pnl": 17.36
+    },
+    {
+     "r": "WIN",
+     "pnl": 17.72
+    },
+    {
+     "r": "WIN",
+     "pnl": 18.08
+    }
+   ]
+  },
+  {
+   "name": "REV4",
+   "room": "REV",
+   "equity": 1290.67,
+   "prof": 290.67,
+   "profpct": 29.07,
+   "wins": 17,
+   "losses": 0,
+   "market": "XAUUSD",
+   "opens": [],
+   "history": [
+    {
+     "r": "WIN",
+     "pnl": 14.48
+    },
+    {
+     "r": "WIN",
+     "pnl": 14.77
+    },
+    {
+     "r": "WIN",
+     "pnl": 15.07
+    },
+    {
+     "r": "WIN",
+     "pnl": 15.38
+    },
+    {
+     "r": "WIN",
+     "pnl": 15.69
+    },
+    {
+     "r": "WIN",
+     "pnl": 16.01
+    },
+    {
+     "r": "WIN",
+     "pnl": 16.34
+    },
+    {
+     "r": "WIN",
+     "pnl": 16.67
+    },
+    {
+     "r": "WIN",
+     "pnl": 17.02
+    },
+    {
+     "r": "WIN",
+     "pnl": 17.36
+    },
+    {
+     "r": "WIN",
+     "pnl": 17.72
+    },
+    {
+     "r": "WIN",
+     "pnl": 18.08
+    }
+   ]
+  },
+  {
+   "name": "CASINO",
+   "room": "THE GAP",
+   "equity": 1232.13,
+   "prof": 232.13,
+   "profpct": 23.21,
+   "wins": 27,
+   "losses": 2,
+   "market": "EUR/GBP/AUD/NZD:",
+   "opens": [],
+   "history": [
+    {
+     "r": "WIN",
+     "pnl": 7.71
+    },
+    {
+     "r": "WIN",
+     "pnl": 6.6
+    },
+    {
+     "r": "WIN",
+     "pnl": 36.93
+    },
+    {
+     "r": "LOSS",
+     "pnl": -14.63
+    },
+    {
+     "r": "WIN",
+     "pnl": 14.1
+    },
+    {
+     "r": "WIN",
+     "pnl": 10.8
+    },
+    {
+     "r": "WIN",
+     "pnl": 6.84
+    },
+    {
+     "r": "WIN",
+     "pnl": 1.79
+    },
+    {
+     "r": "LOSS",
+     "pnl": -14.59
+    },
+    {
+     "r": "WIN",
+     "pnl": 2.45
+    },
+    {
+     "r": "WIN",
+     "pnl": 7.92
+    },
+    {
+     "r": "WIN",
+     "pnl": 5.29
+    }
+   ]
+  },
+  {
+   "name": "HIS",
+   "room": "LIVE RACE",
+   "equity": 1225.57,
+   "prof": 225.57,
+   "profpct": 22.56,
+   "wins": 4,
+   "losses": 2,
+   "market": "XAUUSD",
+   "opens": [],
+   "history": [
+    {
+     "r": "WIN",
+     "pnl": 127.62
+    },
+    {
+     "r": "LOSS",
+     "pnl": -108.41
+    },
+    {
+     "r": "LOSS",
+     "pnl": -110.52
+    },
+    {
+     "r": "WIN",
+     "pnl": 106.21
+    },
+    {
+     "r": "WIN",
+     "pnl": 103.47
+    },
+    {
+     "r": "WIN",
+     "pnl": 107.2
+    }
+   ]
+  },
+  {
+   "name": "HIS+",
+   "room": "CHALLENGER",
+   "equity": 1116.47,
+   "prof": 116.47,
+   "profpct": 11.65,
+   "wins": 2,
+   "losses": 5,
+   "market": "XAUUSD",
+   "opens": [],
+   "history": [
+    {
+     "r": "LOSS",
+     "pnl": -240.93
+    },
+    {
+     "r": "LOSS",
+     "pnl": -181.78
+    },
+    {
+     "r": "WIN",
+     "pnl": 461.86
+    },
+    {
+     "r": "LOSS",
+     "pnl": -173.87
+    },
+    {
+     "r": "LOSS",
+     "pnl": -173.88
+    },
+    {
+     "r": "WIN",
+     "pnl": 631.6
+    },
+    {
+     "r": "LOSS",
+     "pnl": -206.53
+    }
+   ]
+  },
+  {
+   "name": "GREEN3",
+   "room": "WINDOW 3",
+   "equity": 1063.77,
+   "prof": 63.77,
+   "profpct": 6.38,
+   "wins": 2,
+   "losses": 1,
+   "market": "XAUUSD",
+   "opens": [],
+   "history": [
+    {
+     "r": "LOSS",
+     "pnl": -1266.6
+    },
+    {
+     "r": "WIN",
+     "pnl": 428.86
+    },
+    {
+     "r": "WIN",
+     "pnl": 901.51
+    }
+   ]
+  },
+  {
+   "name": "ICCPLUS",
+   "room": "ICC",
+   "equity": 1030.13,
+   "prof": 30.13,
+   "profpct": 3.01,
+   "wins": 1,
+   "losses": 0,
+   "market": "GOLD:",
+   "opens": [],
+   "history": [
+    {
+     "r": "WIN",
+     "pnl": 30.13
+    }
+   ]
+  },
+  {
+   "name": "ICC",
+   "room": "ICC",
+   "equity": 1000.0,
+   "prof": 0.0,
+   "profpct": 0.0,
+   "wins": 0,
+   "losses": 0,
+   "market": "GOLD:",
+   "opens": [],
+   "history": []
+  }
+ ],
+ "hidden": 15,
+ "feed": [
+  {
+   "photo": "t/casino_20260918_0400_8e12a1.png",
+   "bot": "CASINO",
+   "room": "THE GAP",
+   "pnl": 7.71,
+   "pips": null,
+   "when": "09-18 04:00"
+  },
+  {
+   "photo": "t/arb_20260918_0000_a45512.png",
+   "bot": "GAP",
+   "room": "THE GAP",
+   "pnl": 14.54,
+   "pips": null,
+   "when": "09-18 00:00"
+  },
+  {
+   "photo": "t/grid_20260917_1800_87802b.png",
+   "bot": "GRID",
+   "room": "GRID",
+   "pnl": 106.12,
+   "pips": null,
+   "when": "09-17 18:00"
+  },
+  {
+   "photo": "t/arb_20260917_1200_110e06.png",
+   "bot": "GAP",
+   "room": "THE GAP",
+   "pnl": 18.43,
+   "pips": null,
+   "when": "09-17 12:00"
+  },
+  {
+   "photo": "t/rev3_20260917_0500_02333b.png",
+   "bot": "REV3",
+   "room": "REV",
+   "pnl": 14.48,
+   "pips": null,
+   "when": "09-17 05:00"
+  },
+  {
+   "photo": "t/rev4_20260917_0500_fee490.png",
+   "bot": "REV4",
+   "room": "REV",
+   "pnl": 14.48,
+   "pips": null,
+   "when": "09-17 05:00"
+  },
+  {
+   "photo": "t/rev3m_20260917_0500_af822b.png",
+   "bot": "REV3M",
+   "room": "REV",
+   "pnl": 16.67,
+   "pips": null,
+   "when": "09-17 05:00"
+  },
+  {
+   "photo": "t/rev5_20260917_0500_f522d7.png",
+   "bot": "REV5",
+   "room": "REV",
+   "pnl": 26.91,
+   "pips": null,
+   "when": "09-17 05:00"
+  },
+  {
+   "photo": "t/casino_20260917_0200_24751d.png",
+   "bot": "CASINO",
+   "room": "THE GAP",
+   "pnl": 6.6,
+   "pips": null,
+   "when": "09-17 02:00"
+  },
+  {
+   "photo": "t/grid_20260917_0000_1576a3.png",
+   "bot": "GRID",
+   "room": "GRID",
+   "pnl": 33.04,
+   "pips": null,
+   "when": "09-17 00:00"
+  },
+  {
+   "photo": "t/fix_20260916_2000_a488e5.png",
+   "bot": "FIX",
+   "room": "LIVE RACE",
+   "pnl": 42.55,
+   "pips": 15.2,
+   "when": "09-16 20:00"
+  },
+  {
+   "photo": "t/arb_20260916_2000_d235c7.png",
+   "bot": "GAP",
+   "room": "THE GAP",
+   "pnl": 11.64,
+   "pips": null,
+   "when": "09-16 20:00"
+  },
+  {
+   "photo": "t/omega_20260916_1704_cd8608.png",
+   "bot": "OMEGA",
+   "room": "LIVE RACE",
+   "pnl": 266.5,
+   "pips": null,
+   "when": "09-16 17:04"
+  },
+  {
+   "photo": "t/omega2_20260916_1704_e652ee.png",
+   "bot": "OMEGA+",
+   "room": "CHALLENGER",
+   "pnl": 233.5,
+   "pips": null,
+   "when": "09-16 17:04"
+  },
+  {
+   "photo": "t/omega3_20260916_1600_82cc56.png",
+   "bot": "OMEGA3",
+   "room": "WINDOW 3",
+   "pnl": 209.7,
+   "pips": null,
+   "when": "09-16 16:00"
+  },
+  {
+   "photo": "t/rev3_20260916_1600_505623.png",
+   "bot": "REV3",
+   "room": "REV",
+   "pnl": 14.77,
+   "pips": null,
+   "when": "09-16 16:00"
+  }
+ ],
+ "challenge": {
+  "start": "2026-09-02",
+  "end": "2026-09-30",
+  "start_label": "Sep 2",
+  "end_label": "Sep 30",
+  "day": 17,
+  "days": 28,
+  "left": 11,
+  "done": false
+ },
+ "total": 19996.78,
+ "edge": "",
+ "tiers": [
+  {
+   "price": "$28",
+   "per": "a month",
+   "name": "THE WAITING ROOM  \u2192  THE GROUP",
+   "ready": false,
+   "soon": "The waiting room opens here the moment the room is ready - the door will be this button and the one on https://luxucleen.com/trading/ . Membership after the launch: https://djbrightfuture.gumroad.com/l/oerud",
+   "url": "https://djbrightfuture.gumroad.com/l/oerud",
+   "what": "Free until the launch on 2026-09-28: you sit in the room, you see it fill, and when it goes live you get 48 hours of every trade the bots take, posted as it happens, at no cost. Then it is $28 a month, cancel any time - and members who stop paying move to a free results room that shows the closed trades only. You place the trades you like by hand, on any broker.",
+   "fit": "Any platform, any broker. Nothing to install - MetaTrader is not even required."
+  },
+  {
+   "price": "$44",
+   "per": "a month",
+   "name": "THE GROUP + THE BOTS",
+   "ready": false,
+   "soon": "The install file is not on the listing yet, so buying today would leave you waiting. No checkout here until it can hand you the bot the moment you pay.",
+   "url": "https://djbrightfuture.gumroad.com/l/xsyfi",
+   "what": "Everything above - the same room, the same signals, there is only ONE group - and on top of it the expert advisors run the trades for you. You get the ready-to-run expert advisor file, a step by step install guide, and a licence key tied to your own MetaTrader account number. Drop it on an XAUUSD chart and it works. You do NOT get the source code at this tier, and you do not need it - MetaTrader runs the compiled file and the code inside is not readable. The source is the $1,028 tier.",
+   "fit": "MetaTrader 4 only - these are MQL4 experts, MT5 is a different language and there is no MT5 build yet. Free on a demo account first, so you see it trade before it touches real money."
+  },
+  {
+   "price": "$1,028",
+   "per": "once",
+   "name": "THE SOURCE  \u00b7  AND YOURS TO RESELL",
+   "ready": true,
+   "url": "https://djbrightfuture.gumroad.com/l/jzand",
+   "what": "The code itself, not just the compiled file. Christian's rule is simple - the sauce goes to the people who buy it. Lifetime, every future version included, nothing that can be switched off from our end. And you may RESELL it: as many times as you like, at any price you set, keeping every cent, under your own name if you want. No share, no fee, no permission needed.",
+   "fit": "MetaTrader 4 (MQL4) - there is no MT5 build yet. Three limits only: do not claim you wrote it, do not sell it under our names, and never promise anyone returns. <a href=\"LICENCE.txt\">Read the full licence before you buy</a>."
+  }
+ ]
+}
