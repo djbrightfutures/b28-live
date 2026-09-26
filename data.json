@@ -1,0 +1,659 @@
+{
+ "updated": "2026-09-26 22:32 UTC",
+ "n_open": 15,
+ "books": [
+  {
+   "name": "OMEGA3",
+   "room": "WINDOW 3",
+   "equity": 2549.79,
+   "prof": 1549.79,
+   "profpct": 154.98,
+   "wins": 4,
+   "losses": 0,
+   "market": "XAUUSD",
+   "opens": [
+    {
+     "side": "SELL",
+     "sym": "GOLD",
+     "entry": 4369.39990234375,
+     "live": 4321.2,
+     "pnl": 144.6,
+     "lot": 0.03
+    }
+   ],
+   "history": [
+    {
+     "r": "WIN",
+     "pnl": 319.79
+    },
+    {
+     "r": "WIN",
+     "pnl": 209.7
+    },
+    {
+     "r": "WIN",
+     "pnl": 204.0
+    },
+    {
+     "r": "WIN",
+     "pnl": 671.7
+    }
+   ]
+  },
+  {
+   "name": "GREEN3",
+   "room": "WINDOW 3",
+   "equity": 1887.57,
+   "prof": 887.57,
+   "profpct": 88.76,
+   "wins": 3,
+   "losses": 1,
+   "market": "XAUUSD",
+   "opens": [
+    {
+     "side": "SELL",
+     "sym": "GOLD",
+     "entry": 4379.5,
+     "live": 4321.2,
+     "pnl": 174.9,
+     "lot": 0.03
+    },
+    {
+     "side": "SELL",
+     "sym": "GOLD",
+     "entry": 4369.39990234375,
+     "live": 4321.2,
+     "pnl": 361.5,
+     "lot": 0.075
+    }
+   ],
+   "history": [
+    {
+     "r": "WIN",
+     "pnl": 287.4
+    },
+    {
+     "r": "LOSS",
+     "pnl": -1266.6
+    },
+    {
+     "r": "WIN",
+     "pnl": 428.86
+    },
+    {
+     "r": "WIN",
+     "pnl": 901.51
+    }
+   ]
+  },
+  {
+   "name": "GAP",
+   "room": "THE GAP",
+   "equity": 1648.94,
+   "prof": 648.94,
+   "profpct": 64.89,
+   "wins": 21,
+   "losses": 1,
+   "market": "GOLD:",
+   "opens": [],
+   "history": [
+    {
+     "r": "WIN",
+     "pnl": 8.56
+    },
+    {
+     "r": "WIN",
+     "pnl": 5.3
+    },
+    {
+     "r": "WIN",
+     "pnl": 31.57
+    },
+    {
+     "r": "WIN",
+     "pnl": 17.58
+    },
+    {
+     "r": "WIN",
+     "pnl": 4.62
+    },
+    {
+     "r": "WIN",
+     "pnl": 1.33
+    },
+    {
+     "r": "WIN",
+     "pnl": 14.54
+    },
+    {
+     "r": "WIN",
+     "pnl": 18.43
+    },
+    {
+     "r": "WIN",
+     "pnl": 11.64
+    },
+    {
+     "r": "WIN",
+     "pnl": 184.03
+    },
+    {
+     "r": "WIN",
+     "pnl": 8.13
+    },
+    {
+     "r": "WIN",
+     "pnl": 30.9
+    }
+   ]
+  },
+  {
+   "name": "CASINO",
+   "room": "THE GAP",
+   "equity": 1346.44,
+   "prof": 346.44,
+   "profpct": 34.64,
+   "wins": 43,
+   "losses": 2,
+   "market": "EUR/GBP/AUD/NZD:",
+   "opens": [],
+   "history": [
+    {
+     "r": "WIN",
+     "pnl": 12.74
+    },
+    {
+     "r": "WIN",
+     "pnl": 2.88
+    },
+    {
+     "r": "WIN",
+     "pnl": 1.83
+    },
+    {
+     "r": "WIN",
+     "pnl": 11.25
+    },
+    {
+     "r": "WIN",
+     "pnl": 15.13
+    },
+    {
+     "r": "WIN",
+     "pnl": 3.72
+    },
+    {
+     "r": "WIN",
+     "pnl": 7.25
+    },
+    {
+     "r": "WIN",
+     "pnl": 6.8
+    },
+    {
+     "r": "WIN",
+     "pnl": 6.38
+    },
+    {
+     "r": "WIN",
+     "pnl": 3.72
+    },
+    {
+     "r": "WIN",
+     "pnl": 4.42
+    },
+    {
+     "r": "WIN",
+     "pnl": 8.92
+    }
+   ]
+  },
+  {
+   "name": "HIS3",
+   "room": "WINDOW 3",
+   "equity": 1242.06,
+   "prof": 242.06,
+   "profpct": 24.21,
+   "wins": 0,
+   "losses": 26,
+   "market": "XAUUSD",
+   "opens": [],
+   "history": [
+    {
+     "r": "LOSS",
+     "pnl": -25.35
+    },
+    {
+     "r": "LOSS",
+     "pnl": -25.87
+    },
+    {
+     "r": "LOSS",
+     "pnl": -23.58
+    },
+    {
+     "r": "LOSS",
+     "pnl": -22.07
+    },
+    {
+     "r": "LOSS",
+     "pnl": -19.71
+    },
+    {
+     "r": "LOSS",
+     "pnl": -13.35
+    },
+    {
+     "r": "LOSS",
+     "pnl": -13.62
+    },
+    {
+     "r": "LOSS",
+     "pnl": -13.9
+    },
+    {
+     "r": "LOSS",
+     "pnl": -14.19
+    },
+    {
+     "r": "LOSS",
+     "pnl": -14.48
+    },
+    {
+     "r": "LOSS",
+     "pnl": -14.77
+    },
+    {
+     "r": "LOSS",
+     "pnl": -15.07
+    }
+   ]
+  },
+  {
+   "name": "REV5",
+   "room": "REV",
+   "equity": 1167.92,
+   "prof": 167.92,
+   "profpct": 16.79,
+   "wins": 26,
+   "losses": 6,
+   "market": "XAUUSD",
+   "opens": [],
+   "history": [
+    {
+     "r": "WIN",
+     "pnl": 53.11
+    },
+    {
+     "r": "LOSS",
+     "pnl": -176.39
+    },
+    {
+     "r": "WIN",
+     "pnl": 56.5
+    },
+    {
+     "r": "WIN",
+     "pnl": 53.5
+    },
+    {
+     "r": "WIN",
+     "pnl": 52.26
+    },
+    {
+     "r": "LOSS",
+     "pnl": -103.47
+    },
+    {
+     "r": "WIN",
+     "pnl": 49.0
+    },
+    {
+     "r": "LOSS",
+     "pnl": -239.04
+    },
+    {
+     "r": "LOSS",
+     "pnl": -163.85
+    },
+    {
+     "r": "LOSS",
+     "pnl": -84.55
+    },
+    {
+     "r": "WIN",
+     "pnl": 21.01
+    },
+    {
+     "r": "WIN",
+     "pnl": 22.35
+    }
+   ]
+  },
+  {
+   "name": "HIS4",
+   "room": "WINDOW 3",
+   "equity": 1160.73,
+   "prof": 160.73,
+   "profpct": 16.07,
+   "wins": 0,
+   "losses": 26,
+   "market": "XAUUSD",
+   "opens": [],
+   "history": [
+    {
+     "r": "LOSS",
+     "pnl": -23.69
+    },
+    {
+     "r": "LOSS",
+     "pnl": -24.17
+    },
+    {
+     "r": "LOSS",
+     "pnl": -22.2
+    },
+    {
+     "r": "LOSS",
+     "pnl": -20.92
+    },
+    {
+     "r": "LOSS",
+     "pnl": -18.88
+    },
+    {
+     "r": "LOSS",
+     "pnl": -13.35
+    },
+    {
+     "r": "LOSS",
+     "pnl": -13.62
+    },
+    {
+     "r": "LOSS",
+     "pnl": -13.9
+    },
+    {
+     "r": "LOSS",
+     "pnl": -14.19
+    },
+    {
+     "r": "LOSS",
+     "pnl": -14.48
+    },
+    {
+     "r": "LOSS",
+     "pnl": -14.77
+    },
+    {
+     "r": "LOSS",
+     "pnl": -15.07
+    }
+   ]
+  },
+  {
+   "name": "HIS3M",
+   "room": "WINDOW 3",
+   "equity": 1155.51,
+   "prof": 155.51,
+   "profpct": 15.55,
+   "wins": 0,
+   "losses": 26,
+   "market": "XAUUSD",
+   "opens": [],
+   "history": [
+    {
+     "r": "LOSS",
+     "pnl": -29.63
+    },
+    {
+     "r": "LOSS",
+     "pnl": -30.39
+    },
+    {
+     "r": "LOSS",
+     "pnl": -27.63
+    },
+    {
+     "r": "LOSS",
+     "pnl": -25.85
+    },
+    {
+     "r": "LOSS",
+     "pnl": -22.97
+    },
+    {
+     "r": "LOSS",
+     "pnl": -15.07
+    },
+    {
+     "r": "LOSS",
+     "pnl": -15.45
+    },
+    {
+     "r": "LOSS",
+     "pnl": -15.85
+    },
+    {
+     "r": "LOSS",
+     "pnl": -16.26
+    },
+    {
+     "r": "LOSS",
+     "pnl": -16.67
+    },
+    {
+     "r": "LOSS",
+     "pnl": -17.1
+    },
+    {
+     "r": "LOSS",
+     "pnl": -17.54
+    }
+   ]
+  },
+  {
+   "name": "ICCPLUS",
+   "room": "ICC",
+   "equity": 1030.13,
+   "prof": 30.13,
+   "profpct": 3.01,
+   "wins": 1,
+   "losses": 0,
+   "market": "GOLD:",
+   "opens": [],
+   "history": [
+    {
+     "r": "WIN",
+     "pnl": 30.13
+    }
+   ]
+  },
+  {
+   "name": "ICC",
+   "room": "ICC",
+   "equity": 1000.0,
+   "prof": 0.0,
+   "profpct": 0.0,
+   "wins": 0,
+   "losses": 0,
+   "market": "GOLD:",
+   "opens": [],
+   "history": []
+  }
+ ],
+ "hidden": 20,
+ "feed": [
+  {
+   "photo": "t/casino_20260923_0200_0f6b7e.png",
+   "bot": "CASINO",
+   "room": "THE GAP",
+   "pnl": 15.13,
+   "pips": null,
+   "when": "09-23 02:00"
+  },
+  {
+   "photo": "t/rev3_20260923_0200_a8f248.png",
+   "bot": "REV3",
+   "room": "REV",
+   "pnl": 25.35,
+   "pips": null,
+   "when": "09-23 02:00"
+  },
+  {
+   "photo": "t/rev4_20260923_0200_c7c9ef.png",
+   "bot": "REV4",
+   "room": "REV",
+   "pnl": 23.69,
+   "pips": null,
+   "when": "09-23 02:00"
+  },
+  {
+   "photo": "t/rev3m_20260923_0200_aeff35.png",
+   "bot": "REV3M",
+   "room": "REV",
+   "pnl": 29.63,
+   "pips": null,
+   "when": "09-23 02:00"
+  },
+  {
+   "photo": "t/rev5_20260923_0200_5c7108.png",
+   "bot": "REV5",
+   "room": "REV",
+   "pnl": 53.11,
+   "pips": null,
+   "when": "09-23 02:00"
+  },
+  {
+   "photo": "t/rev3_20260922_2202_0331e5.png",
+   "bot": "REV3",
+   "room": "REV",
+   "pnl": 0.01,
+   "pips": null,
+   "when": "09-22 22:02"
+  },
+  {
+   "photo": "t/grid_20260922_2200_647e28.png",
+   "bot": "GRID",
+   "room": "GRID",
+   "pnl": 5.6,
+   "pips": null,
+   "when": "09-22 22:00"
+  },
+  {
+   "photo": "t/rev3_20260922_2100_0009fe.png",
+   "bot": "REV3",
+   "room": "REV",
+   "pnl": 25.87,
+   "pips": null,
+   "when": "09-22 21:00"
+  },
+  {
+   "photo": "t/rev3_20260922_2100_0009fe.png",
+   "bot": "REV3",
+   "room": "REV",
+   "pnl": 22.07,
+   "pips": null,
+   "when": "09-22 21:00"
+  },
+  {
+   "photo": "t/rev4_20260922_2100_4b64a6.png",
+   "bot": "REV4",
+   "room": "REV",
+   "pnl": 24.17,
+   "pips": null,
+   "when": "09-22 21:00"
+  },
+  {
+   "photo": "t/rev4_20260922_2100_4b64a6.png",
+   "bot": "REV4",
+   "room": "REV",
+   "pnl": 20.92,
+   "pips": null,
+   "when": "09-22 21:00"
+  },
+  {
+   "photo": "t/rev3m_20260922_2100_9d0783.png",
+   "bot": "REV3M",
+   "room": "REV",
+   "pnl": 30.39,
+   "pips": null,
+   "when": "09-22 21:00"
+  },
+  {
+   "photo": "t/rev3m_20260922_2100_9d0783.png",
+   "bot": "REV3M",
+   "room": "REV",
+   "pnl": 25.85,
+   "pips": null,
+   "when": "09-22 21:00"
+  },
+  {
+   "photo": "t/rev5_20260922_2100_3ad1f4.png",
+   "bot": "REV5",
+   "room": "REV",
+   "pnl": 56.5,
+   "pips": null,
+   "when": "09-22 21:00"
+  },
+  {
+   "photo": "t/rev5_20260922_2100_3ad1f4.png",
+   "bot": "REV5",
+   "room": "REV",
+   "pnl": 52.26,
+   "pips": null,
+   "when": "09-22 21:00"
+  },
+  {
+   "photo": "t/arb_20260922_1900_feb60a.png",
+   "bot": "GAP",
+   "room": "THE GAP",
+   "pnl": 5.3,
+   "pips": null,
+   "when": "09-22 19:00"
+  }
+ ],
+ "challenge": {
+  "start": "2026-09-02",
+  "end": "2026-09-30",
+  "start_label": "Sep 2",
+  "end_label": "Sep 30",
+  "day": 25,
+  "days": 28,
+  "left": 3,
+  "done": false
+ },
+ "total": 14189.09,
+ "edge": "",
+ "tiers": [
+  {
+   "price": "$28",
+   "per": "a month",
+   "name": "THE WAITING ROOM  \u2192  THE GROUP",
+   "ready": false,
+   "soon": "The waiting room opens here the moment the room is ready - the door will be this button and the one on https://luxucleen.com/trading/ . Membership after the launch: https://djbrightfuture.gumroad.com/l/oerud",
+   "url": "https://djbrightfuture.gumroad.com/l/oerud",
+   "what": "Free until the launch on 2026-09-28: you sit in the room, you see it fill, and when it goes live you get 48 hours of every trade the bots take, posted as it happens, at no cost. Then it is $28 a month, cancel any time - and members who stop paying move to a free results room that shows the closed trades only. You place the trades you like by hand, on any broker.",
+   "fit": "Any platform, any broker. Nothing to install - MetaTrader is not even required."
+  },
+  {
+   "price": "$44",
+   "per": "a month",
+   "name": "THE GROUP + THE BOTS",
+   "ready": false,
+   "soon": "The install file is not on the listing yet, so buying today would leave you waiting. No checkout here until it can hand you the bot the moment you pay.",
+   "url": "https://djbrightfuture.gumroad.com/l/xsyfi",
+   "what": "Everything above - the same room, the same signals, there is only ONE group - and on top of it the expert advisors run the trades for you. You get the ready-to-run expert advisor file, a step by step install guide, and a licence key tied to your own MetaTrader account number. Drop it on an XAUUSD chart and it works. You do NOT get the source code at this tier, and you do not need it - MetaTrader runs the compiled file and the code inside is not readable. The source is the $1,028 tier.",
+   "fit": "MetaTrader 4 only - these are MQL4 experts, MT5 is a different language and there is no MT5 build yet. Free on a demo account first, so you see it trade before it touches real money."
+  },
+  {
+   "price": "$1,028",
+   "per": "once",
+   "name": "THE SOURCE  \u00b7  AND YOURS TO RESELL",
+   "ready": true,
+   "url": "https://djbrightfuture.gumroad.com/l/jzand",
+   "what": "The code itself, not just the compiled file. Christian's rule is simple - the sauce goes to the people who buy it. Lifetime, every future version included, nothing that can be switched off from our end. And you may RESELL it: as many times as you like, at any price you set, keeping every cent, under your own name if you want. No share, no fee, no permission needed.",
+   "fit": "MetaTrader 4 (MQL4) - there is no MT5 build yet. Three limits only: do not claim you wrote it, do not sell it under our names, and never promise anyone returns. <a href=\"LICENCE.txt\">Read the full licence before you buy</a>."
+  }
+ ]
+}

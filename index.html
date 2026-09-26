@@ -1,0 +1,309 @@
+<!doctype html><html lang=en><head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>B28 SIGNALS - watch the bots trade, live</title>
+<meta name=description content="Twenty-three trading bots on gold, running live on demo accounts. Watch every trade as it happens. Free.">
+<meta property="og:title" content="B28 SIGNALS - watch the bots trade, live">
+<meta property="og:description" content="Twenty-three bots on gold. Every trade, live. Free to watch.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://djbrightfutures.github.io/b28-live/">
+<meta property="og:image" content="https://djbrightfutures.github.io/b28-live/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://djbrightfutures.github.io/b28-live/og.png">
+<style>
+:root{--bg:#0b0e14;--card:#121823;--ln:#1f2836;--tx:#e6e9ee;--dim:#8b97a8;--up:#3fb950;--dn:#f0553a;--acc:#ffd76e}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif;
+ -webkit-font-smoothing:antialiased;padding-bottom:96px}
+.wrap{max-width:760px;margin:0 auto;padding:20px}
+h1{font-size:23px;margin:0 0 2px;letter-spacing:-.3px}
+h1 b{color:var(--acc)}
+.sub{color:var(--dim);font-size:13px;margin-bottom:14px}
+.demo{background:#1b1408;border:1px solid #3d2f10;color:#f0c674;border-radius:10px;padding:11px 13px;
+ font-size:13px;line-height:1.45;margin-bottom:16px}
+.demo b{color:#ffd76e}
+.tot{display:flex;gap:14px;align-items:baseline;flex-wrap:wrap;margin-bottom:4px}
+.tot .n{font:700 30px ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:-1px}
+.tot .p{font:600 15px ui-monospace,monospace}
+.up{color:var(--up)}.dn{color:var(--dn)}
+.sec{margin:22px 0 9px;font:700 12px system-ui;letter-spacing:1.4px;color:var(--dim);text-transform:uppercase}
+.chal{font:700 12px ui-monospace,Menlo,monospace;color:#f2c14e;margin:0 0 10px;letter-spacing:.4px}
+.ticker{overflow:hidden;white-space:nowrap;margin:6px 0 12px;padding:6px 0;border-top:1px solid var(--ln);border-bottom:1px solid var(--ln)}
+.ticker:empty{display:none}
+.tkrow{display:inline-flex;gap:10px;animation:tkscroll 60s linear infinite}
+.ticker:hover .tkrow{animation-play-state:paused}
+@keyframes tkscroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.tk{display:inline-flex;flex-direction:column;width:210px;flex:0 0 210px;border:1px solid var(--ln);border-radius:10px;overflow:hidden;background:var(--card);text-decoration:none;color:inherit}
+.tk img{width:210px;height:122px;object-fit:cover;display:block;border-bottom:1px solid var(--ln)}
+.tk .tkl{display:flex;justify-content:space-between;align-items:center;padding:5px 8px;font:12px ui-monospace,Menlo,monospace}
+.tk .tkb{font-weight:800}.tk .tkp{font-weight:900}.tk .tkw{color:var(--dim);font-size:10.5px;padding:0 8px 5px}
+.hid{color:var(--dim);font-size:12px;margin:10px 2px}
+.card{background:var(--card);border:1px solid var(--ln);border-radius:13px;padding:13px 14px;margin-bottom:10px}
+.row{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.nm{font-weight:700;font-size:15.5px}
+.room{color:var(--dim);font-size:11px;letter-spacing:.8px}
+.eq{font:700 16px ui-monospace,monospace}
+/* WRAP, never scroll. At 390px these lines overflowed and cut the profit off mid-number */
+.pos{font:12.5px ui-monospace,monospace;color:var(--dim);margin-top:7px;line-height:1.75;
+ background:#0e131b;border:1px solid var(--ln);border-radius:9px;padding:8px 10px}
+.bs{display:inline-block;padding:1px 7px;border-radius:5px;font:700 11px system-ui;margin-right:7px}
+.buy{background:rgba(63,185,80,.16);color:var(--up)}
+.sell{background:rgba(240,85,58,.16);color:var(--dn)}
+.wl{color:var(--dim);font-size:12px;margin-top:6px}
+.bar{height:4px;background:#1b2330;border-radius:3px;overflow:hidden;margin-top:6px}
+.bar i{display:block;height:100%;background:linear-gradient(90deg,#3fb950,#ffd76e)}
+.sale{margin-top:11px;border-top:1px solid var(--ln);padding-top:11px}
+.sale p{margin:0 0 9px;font-size:13px;color:var(--dim)}
+.bbtn{display:block;text-align:center;background:linear-gradient(180deg,#ffd76e,#f0b429);color:#1a1405;
+ font:800 15px system-ui;letter-spacing:.3px;padding:13px;border-radius:11px;text-decoration:none}
+.bbtn span{display:block;font-weight:600;font-size:12px;opacity:.75;margin-top:2px}
+.radio{position:fixed;left:0;right:0;bottom:0;background:#0e131b;border-top:1px solid var(--ln);
+ padding:11px 14px calc(11px + env(safe-area-inset-bottom));display:flex;align-items:center;gap:12px;z-index:9}
+.radio button{background:var(--acc);color:#1a1405;border:0;border-radius:999px;width:42px;height:42px;
+ font-size:17px;font-weight:700;cursor:pointer;flex:0 0 auto}
+.radio .t{font-size:12.5px;color:var(--dim);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.radio .t b{color:var(--tx);display:block;font-size:13px}
+.foot{color:#5c6675;font-size:11.5px;line-height:1.6;margin:26px 0 8px}
+.why{display:flex;align-items:center;gap:12px;background:var(--card);border:1px solid var(--ln);
+ border-radius:13px;padding:12px 14px;margin-bottom:16px;cursor:pointer}
+.why button{background:var(--acc);color:#1a1405;border:0;border-radius:999px;width:44px;height:44px;
+ font-size:18px;font-weight:700;cursor:pointer;flex:0 0 auto}
+.wt b{display:block;font-size:14.5px}
+.wt span{color:var(--dim);font-size:12.5px}
+.tier{background:var(--card);border:1px solid var(--ln);border-radius:13px;padding:14px;margin-bottom:10px}
+.tier .h{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+.tier .pr{font:800 26px ui-monospace,monospace;letter-spacing:-1px;color:var(--acc)}
+.tier .pe{color:var(--dim);font-size:12.5px}
+.tier .tn{font:700 12px system-ui;letter-spacing:1.2px;margin-left:auto;color:var(--dim)}
+.tier p{margin:8px 0 0;font-size:13.5px}
+.tier .fit{color:var(--dim);font-size:12.5px;margin-top:6px}
+.hk{margin:0 0 10px;font-size:13.5px;color:var(--dim);line-height:1.5}
+.hk:last-child{margin-bottom:0}
+.hk b{color:var(--tx)}
+.soon{margin-top:12px;background:#16202c;border:1px dashed #2c3a4c;border-radius:11px;
+ padding:12px;color:var(--dim);font-size:12.5px;line-height:1.5}
+.soon b{display:block;color:var(--acc);font-size:13.5px;margin-bottom:3px}
+a{color:var(--acc)}
+</style></head><body>
+<div class=wrap>
+ <h1><b>B28</b> SIGNALS</h1>
+ <div class=sub id=sub>loading the books…</div>
+
+
+ <div class=demo><b>These are DEMO accounts trading simulated money.</b> Every trade below is
+ real in the sense that the bots decide and execute them on live gold prices with no human
+ touching them &mdash; and not real in the sense that no money changes hands. Nothing here is
+ financial advice, and past results never promise future ones.</div>
+
+ <div class=tot><span class="n" id=tot>&mdash;</span><span class="p" id=pl></span></div>
+ <div class=sub id=upd></div>
+
+ <div class=chal id=chal></div>
+ <div class=ticker id=ticker></div>
+
+ <div class=sec>Live right now</div>
+ <div id=live></div>
+
+ <div class=sec>Three ways in</div>
+ <div id=tiers></div>
+ <div class=card><p class=hk><b>Two ways to buy the bots, and the easy one is coming.</b>
+ Today you buy here and install the expert advisor yourself - a file, a guide, five minutes.
+ Soon you will also be able to buy it inside MetaTrader itself, from the MetaTrader market,
+ where it installs on its own and you never touch a file. That is the one to wait for if you
+ have never installed an expert advisor before. It is not open yet, so there is no link to it
+ here - when it is real it will be on this page.</p></div>
+
+ <div class=card><p class=hk><b>How you can run the bots without getting the code.</b>
+ MetaTrader runs a COMPILED expert advisor - one file, and the code inside it is not readable.
+ That is what the $44 tier gives you: a bot that works, not a bot you can read. On top of that
+ the file is tied to your own MetaTrader account number, so it only runs on your account.
+ The source code is the $1,028 tier and only the $1,028 tier. Being straight about it: a
+ compiled file can be decompiled by someone determined enough - compiling is what stops the
+ casual reader, the account lock is what actually stops it being passed around.</p></div>
+
+ <div class=card><p class=hk><b>There is only one group.</b> The $44 people and the $28 people
+ are in the same room, seeing the same signals. The $44 adds the expert advisors placing the
+ trades for you instead of you placing them by hand - it is an upgrade, not a second group.</p>
+ <p class=hk><b>How the automation actually reaches you:</b> you get the expert advisor file, a
+ step by step install guide, and a licence key tied to your own MetaTrader account number. Copy
+ the file into MetaTrader 4, drag it onto an XAUUSD chart, done. It runs free on a demo account
+ first, so you watch it trade before it touches real money.</p></div>
+
+ <div class=sec>The one rule inside the group</div>
+ <div class=card>
+  <p class=hk><b>Post the code in the group and you are out. Immediately.</b> No source code, no
+  decompiled code, no expert advisor files - not in the room, not in a reply, not in a direct
+  message to someone you met there, not as a screenshot, not as a link.</p>
+  <p class=hk>Removed permanently, no warning, no refund for the period you are in, and
+  disqualified from every future update, every future version and every future signal. On every
+  tier - including if you hold the full source licence.</p>
+  <p class=hk><b>That is not a contradiction of the resale right, and here is why it matters to
+  you.</b> If you bought the source tier you may sell it anywhere in the world, at any price,
+  forever - nothing takes that away. What you may not do is dump it free inside the one room
+  where other people are paying monthly for the compiled version. That does not only cost
+  Christian; it destroys the value of your OWN resale right, because nobody buys from you what
+  somebody handed out free in the room they are already sitting in.</p>
+  <p class=hk>It is written here, before you pay, because a ban explained afterwards is not a
+  fair one. <a href="LICENCE.txt">Full terms</a>.</p>
+ </div>
+
+ <div class=sec>How you know this is real</div>
+ <div class=card>
+  <p class=hk><b>Nothing on this page is typed in by hand.</b> Every number is written by the
+  bots themselves, out of their own ledgers, every few minutes.</p>
+  <p class=hk><b>A bot had to prove it was the bot before it could claim anything.</b> Each one
+  was rebuilt and checked against the live version trade for trade - 237 trades, matching to the
+  cent - before any comparison was allowed to count.</p>
+  <p class=hk><b>Every test pays real costs</b> - spread and commission - and is scored on data
+  the tuning never saw. A result that only exists on the data it was tuned on is not a result.</p>
+  <p class=hk><b>The losers are on this page too.</b> Scroll the list: the red ones are not
+  hidden, and one of them is Christian's own. A page that showed only winners would tell you
+  nothing.</p>
+  <p class=hk>Built and audited with Claude Code.</p>
+ </div>
+
+ <div class=sec>Every bot</div>
+ <div id=books></div>
+
+ <div class=foot>
+  Built by DjBrightFuture. The bots trade gold on hourly bars and are judged by a forward
+  record, not a backtest. This page updates every few minutes. It is a static page &mdash; it
+  holds no account, asks for nothing, and stores nothing about you.
+ </div>
+</div>
+
+
+<script>
+
+function money(x){x=Number(x)||0;return (x>=0?'+':'')+x.toFixed(2)}
+function px(p){p=Number(p)||0;return p>=100?p.toFixed(2):p.toFixed(5)}
+function lot(x){x=Number(x)||0;var s=x.toFixed(Math.abs(x)<1?3:2);
+ if(s.indexOf('.')>=0)s=s.replace(/0+$/,'').replace(/\.$/,'');return s}
+
+function posline(o){
+ var b=(o.side=='BUY');
+ return '<div class=pos><span class="bs '+(b?'buy':'sell')+'">'+(b?'BUY':'SELL')+'</span>'+
+  lot(o.lot)+' '+o.sym+' @'+px(o.entry)+(o.live?(' &rarr; '+px(o.live)):'')+
+  '  <span class="'+((o.pnl>=0)?'up':'dn')+'">'+money(o.pnl)+'</span></div>';
+}
+
+
+function tiers(){
+ var h='';
+ (DATA.tiers||[]).forEach(function(t){
+  h+='<div class=tier><div class=h><span class=pr>'+t.price+'</span>'+
+     '<span class=pe>'+t.per+'</span><span class=tn>'+t.name+'</span></div>'+
+     '<p>'+t.what+'</p><div class=fit>'+t.fit+'</div>'+
+     (t.ready
+       ? ('<a class=bbtn style=margin-top:12px href="'+t.url+'" target=_blank rel=noopener>'+
+          'GET IT<span>'+t.price+' '+t.per+'</span></a>')
+       : ('<div class=soon><b>Opening in days</b><span>'+(t.soon||'')+'</span></div>'))+'</div>';
+ });
+ document.getElementById('tiers').innerHTML=h;
+}
+
+var DATA={};
+/* TWO SOURCES, ONE PAGE. The edge is seconds fresh; the GitHub copy is about a minute. Ask the
+   edge first, fall back quietly, and always SAY which one answered - a stale number pretending
+   to be live is worse than an honest slow one. */
+var EDGE='', SRC='';
+async function grab(){
+ if(EDGE){
+  try{
+   var e=await fetch(EDGE.replace(/\/$/,'')+'/live?t='+Date.now(),{cache:'no-store'});
+   if(e.ok){var age=Number(e.headers.get('X-B28-Age')||0);
+    if(age<25){SRC='live edge · '+age+'s ago';return await e.json();}}
+  }catch(err){}
+ }
+ var r=await fetch('data.json?t='+Date.now(),{cache:'no-store'});
+ SRC='';
+ return await r.json();
+}
+async function tick(){
+ try{
+  DATA=await grab();
+  if(DATA.edge)EDGE=DATA.edge;
+  document.getElementById('tot').textContent='$'+DATA.total.toFixed(2);
+  var p=DATA.books.reduce(function(a,b){return a+(b.prof||0)},0);
+  var e=document.getElementById('pl');e.textContent=money(p)+' total';e.className='p '+(p>=0?'up':'dn');
+  document.getElementById('sub').textContent=DATA.books.length+' bots  ·  '+DATA.n_open+' trades open right now';
+  document.getElementById('upd').textContent='updated '+DATA.updated+(SRC?(' \u00b7 '+SRC):'');
+
+  var L='';
+  DATA.books.forEach(function(b){
+   if(!b.opens.length)return;
+   L+='<div class=card><div class=row><span class=nm>'+b.name+'</span><span class=room>'+b.room+'</span></div>';
+   b.opens.forEach(function(o){L+=posline(o)});
+   L+='</div>';
+  });
+  document.getElementById('live').innerHTML=L||'<div class=card><span class=room>No trades open at this moment. The bots are waiting for a signal.</span></div>';
+  var ch=DATA.challenge||{},ce=document.getElementById('chal');
+  if(ce&&ch.day){ce.textContent='28-DAY CHALLENGE · day '+ch.day+' of '+ch.days+' · '+ch.left+' days left · every bot started with $1,000 on '+ch.start_label;}
+  /* the scroller: the photos of the last winning trades, doubled so the glide never shows a gap */
+  var tkel=document.getElementById('ticker');
+  if(tkel){var F=DATA.feed||[];var sig=F.map(function(f){return f.photo}).join('|');
+   if(sig!==window.__TKSIG){window.__TKSIG=sig;
+    var one=F.map(function(f){var pp=(f.pips!=null)?((f.pips>=0?'+':'')+Number(f.pips).toFixed(1)+' pips'):money(f.pnl);
+     return '<a class=tk href="'+f.photo+'" target=_blank rel=noopener><img src="'+f.photo+'" alt="" loading=lazy><div class=tkl><span class=tkb>'+f.bot+'</span><span class="tkp up">'+pp+'</span></div><div class=tkw>'+(f.pips!=null?(money(f.pnl)+' USD · '):'')+(f.when||'')+'</div></a>'}).join('');
+    tkel.innerHTML=F.length?('<div class=tkrow>'+one+one+'</div>'):'';}}
+
+  var B='';
+  DATA.books.forEach(function(b){
+   var t=b.wins+b.losses,wr=t?Math.round(100*b.wins/t):0;
+   B+='<div class=card><div class=row><span class=nm>'+b.name+'</span>'+
+      '<span class="eq '+((b.prof>=0)?'up':'dn')+'">$'+b.equity.toFixed(2)+'</span></div>'+
+      '<div class=row><span class=room>'+b.room+'  ·  '+b.market+'</span>'+
+      '<span class="'+((b.prof>=0)?'up':'dn')+'">'+money(b.prof)+' ('+money(b.profpct)+'%)</span></div>'+
+      '<div class=wl>'+b.wins+'W-'+b.losses+'L'+(t?('  ·  '+wr+'% won'):'  ·  no closed trades yet')+'</div>'+
+      '<div class=bar><i style=width:'+wr+'%></i></div>'+
+      '</div>';
+  });
+  if(DATA.hidden){B+='<div class=hid>'+DATA.hidden+' bot'+(DATA.hidden>1?'s':'')+' in the red, off view until green again.</div>'}
+  document.getElementById('books').innerHTML=B;
+  tiers();
+ }catch(e){}
+}
+tick();setInterval(tick,20000);
+</script>
+
+<script>/*lux-voice*/(function(){try{window.luxVoicePage=true;var API="https://ai.luxucleen.com/ask";
+var Q="Welcome to the B28 live proving ground. Watch our trading bots go head to head on gold, every win and every loss, live. This is a paper account, eighteen plus, and not financial advice.";
+var clips=null,i=0,player=null,started=false,fin=false;
+function finish(){if(fin)return;fin=true;setTimeout(function(){try{if(window.luxFadeIn){window.luxFadeIn();}else if(window.luxRadioStart){window.luxRadioStart();}}catch(e){}},900);}
+function playNext(){if(!clips||i>=clips.length){finish();return;}var c=clips[i++];try{player=new Audio("data:"+(c.type||"audio/mpeg")+";base64,"+c.audio);player.onended=function(){setTimeout(playNext,700);};player.onerror=playNext;var pr=player.play();if(pr&&pr.catch)pr.catch(function(){finish();});}catch(e){playNext();}}
+function begin(){if(started)return;started=true;if(clips){i=0;playNext();}else{fetch(API,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({mode:"say",q:Q,lang:"en",voice:"both"})}).then(function(r){return r.json();}).then(function(d){if(d&&d.clips&&d.clips.length){clips=d.clips;i=0;playNext();}else{finish();}}).catch(function(){finish();});}}
+function prefetch(){try{fetch(API,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({mode:"say",q:Q,lang:"en",voice:"both"})}).then(function(r){return r.json();}).then(function(d){if(d&&d.clips){clips=d.clips;}}).catch(function(){});}catch(e){}}
+var go=function(){document.removeEventListener("click",go);document.removeEventListener("touchstart",go);document.removeEventListener("keydown",go);try{var _u=new Audio("data:audio/wav;base64,UklGRiYAAABXQVZFZm10IBAAAAABAAEAQB8AAIA+AAACABAAZGF0YQIAAAAAAA==");_u.volume=0;var _up=_u.play();if(_up&&_up.catch)_up.catch(function(){});}catch(e){}setTimeout(begin,1800);};
+document.addEventListener("click",go,{once:true});document.addEventListener("touchstart",go,{once:true});document.addEventListener("keydown",go,{once:true});
+if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",prefetch);else prefetch();
+}catch(e){}})();</script>
+<script>/*lux-radio*/(function(){try{
+var STREAM="https://ice1.somafm.com/beatblender-128-mp3",BASE=0.08,DUCK=0.015;
+var a=new Audio();a.src=STREAM;a.preload="none";a.volume=BASE;
+var on=true;try{if(localStorage.getItem("lux_radio")==="off")on=false;}catch(e){}
+var btn=document.createElement("button");btn.type="button";btn.setAttribute("aria-label","Background music on or off");
+btn.style.cssText="position:fixed;right:14px;bottom:14px;z-index:2147483000;width:46px;height:46px;border-radius:50%;border:0;cursor:pointer;font-size:20px;line-height:46px;text-align:center;background:#0f5aa8;color:#fff;box-shadow:0 4px 14px rgba(0,0,0,.3);opacity:.9";
+function icon(){btn.textContent=on?"♪":"🔇";}
+function start(){if(!on)return;try{var p=a.play();if(p&&p.catch)p.catch(function(){});}catch(e){}}
+function stop(){try{a.pause();}catch(e){}}
+icon();
+btn.addEventListener("click",function(){on=!on;try{localStorage.setItem("lux_radio",on?"on":"off");}catch(e){}icon();if(on)start();else stop();});
+window.luxDuck=function(d){try{a.volume=(typeof d==="number")?d:(d?DUCK:BASE);}catch(e){}};window.luxRadioStart=function(){if(on&&a.paused){start();}};window.luxFadeIn=function(){try{if(!on)return;a.volume=0;start();var _t=0;var _iv=setInterval(function(){_t+=0.05;var v=Math.min(BASE,BASE*(_t/4));try{a.volume=v;}catch(e){}if(_t>=4){try{a.volume=BASE;}catch(e){}clearInterval(_iv);}},50);}catch(e){}};
+var armed=false;function arm(){if(armed)return;armed=true;var go=function(){document.removeEventListener("click",go);document.removeEventListener("touchstart",go);start();};document.addEventListener("click",go,{once:true});document.addEventListener("touchstart",go,{once:true});}
+function boot(){document.body.appendChild(btn);if(!window.luxVoicePage){arm();}}
+if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",boot);else boot();
+}catch(e){}})();</script>
+<script>/*lux-theme*/(function(){try{
+function cur(){return document.documentElement.getAttribute("data-theme")==="light"?"light":"dark";}
+var b=document.createElement("button");b.type="button";b.setAttribute("aria-label","Switch light or dark theme");
+b.style.cssText="position:fixed;right:14px;top:14px;z-index:2147483001;width:40px;height:40px;border-radius:50%;border:1px solid rgba(128,128,128,.35);cursor:pointer;font-size:18px;line-height:1;background:rgba(20,22,28,.55);color:#e7ebf1;-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)";
+function icon(){b.textContent=cur()==="light"?"☾":"☀";}
+icon();
+b.addEventListener("click",function(){var next=cur()==="light"?"dark":"light";if(next==="light"){document.documentElement.setAttribute("data-theme","light");}else{document.documentElement.removeAttribute("data-theme");}try{localStorage.setItem("lux_theme",next);}catch(e){}icon();});
+function boot(){document.body.appendChild(b);}
+if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",boot);else boot();
+}catch(e){}})();</script>
+<script defer src="https://luxucleen.com/lux-orb.js"></script>
+</body></html>

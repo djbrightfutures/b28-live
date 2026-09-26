@@ -1,0 +1,29 @@
+# PUBLIC repo (b28-live). ONLY the live page, its data and chart images belong here.
+# Never let code, tooling, keys or secrets get published - block them defensively.
+*.py
+*.pyw
+*.env
+*.pem
+*.key
+*.pfx
+*.crt
+*.log
+.gate_pass
+*gate_pass*
+*token*
+*secret*
+*_key*
+*apikey*
+.cloudflare*
+.cf_token
+twilio*
+gumroad*
+leads*
+*.mq4
+*.mq5
+worker.js
+cf_worker.js
+cf_deploy.py
+cf_push.py
+publish_live.py
+paper_live*.json
