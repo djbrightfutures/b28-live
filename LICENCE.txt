@@ -1,0 +1,94 @@
+B28 SIGNALS - EXPERT ADVISOR LICENCE
+Full purchase tier ($1,028, one time)
+Issued by Luxucleen LLC (Virginia, USA) - DjBrightFuture
+Version 1.0, 2026-09-10
+
+
+WHAT YOU BOUGHT
+
+The complete source code of the B28 expert advisors for MetaTrader 4 (MQL4), the compiled
+expert advisor files, the install guide, and the research code behind them.
+
+
+LIFETIME ACCESS
+
+Yours permanently. No renewal, no expiry, no account number to register, nothing that can be
+switched off from our end. Every future version and update of these expert advisors is included
+at no extra cost, for as long as they exist.
+
+
+YOU MAY RESELL IT
+
+You may sell, resell and redistribute this software, as many times as you like, at any price you
+choose, and keep one hundred percent of what you charge. You may sell the compiled expert
+advisors, the source code, or both. You may modify it first and sell your modified version. You
+may use it inside a product of your own, under your own name.
+
+You do not owe us a share, a fee, a report or a notification. You do not need our permission for
+any individual sale. There is no territory limit and no time limit.
+
+This is a deliberate grant, not a loophole: it is the point of this tier. Nobody who buys at
+this level should ever have to wonder whether they are allowed to make money with it.
+
+
+THE THREE THINGS YOU MAY NOT DO
+
+1. You may not claim that you wrote it or that you own the copyright. The copyright stays with
+   Luxucleen LLC. You hold a licence that lets you do nearly anything with the software - that
+   is not the same as owning it, and claiming authorship is the one thing that would create a
+   real dispute.
+
+2. You may not use the names B28, B28.Signals, GRID28, Beats28 or DjBrightFuture as the brand of
+   what you sell, and you may not present yourself as us or as an official reseller of ours.
+   Sell it under your own name; that is what "rebrand it" means here.
+
+3. You may not promise returns to the people you sell it to. Not ours, not yours, not any. It
+   is illegal in most places and it is the fastest way to turn a software sale into a
+   regulatory problem for you personally.
+
+
+THE ONE RULE INSIDE THE GROUP - POST THE CODE AND YOU ARE OUT
+
+Do not post source code, decompiled code, expert advisor files, or any part of them inside the
+B28 Telegram group. Not in the main room, not in a reply, not in a direct message to another
+member you met there, not as a screenshot, not as a link.
+
+Do it and you are removed immediately and permanently. No warning, no second chance, no refund
+for the period you are in, and you are disqualified from every future update, every future
+version, and every future signal - on every tier, including if you hold the full source licence.
+
+THIS IS NOT A CONTRADICTION OF YOUR RESALE RIGHT, AND IT MATTERS THAT YOU SEE WHY. If you bought
+the full tier you may sell the code anywhere in the world, at any price, forever - that is
+yours and nothing here takes it away. What you may not do is dump it for free inside the one
+room where other people are paying every month for the compiled version. That does not just cost
+Christian; it destroys the value of your OWN resale right, because nobody buys from you what
+somebody handed out free in the room they are already sitting in.
+
+The rule exists to protect the people who paid, including you. It is stated here, before you
+buy, because a ban that is only explained afterwards is not a fair one.
+
+
+NO WARRANTY, AND THE PART THAT MATTERS MOST
+
+This software is provided as is. Trading carries risk and can lose money, including more than
+you put in if you use leverage. Results shown anywhere - on our pages, in our videos, in this
+package - come from demonstration accounts trading simulated money unless explicitly stated
+otherwise, and past results never promise future ones.
+
+Nothing here is financial advice, and we are not a broker, a fund, an investment adviser or a
+signal service regulated by anyone. You are responsible for your own trades, your own account,
+and your own compliance with the rules where you live.
+
+To the maximum extent the law allows, Luxucleen LLC is not liable for any trading loss, lost
+profit, or other damage arising from the use of this software, by you or by anyone you sell it
+to.
+
+
+IF YOU RESELL IT, PASS THIS ON
+
+Whoever you sell it to gets the same rights you got, on the same terms, including the three
+limits above and this warranty section. Include this file, or your own version of these terms,
+with what you sell. That keeps the chain clean for everyone in it.
+
+
+Questions: djbrightfutures@gmail.com
